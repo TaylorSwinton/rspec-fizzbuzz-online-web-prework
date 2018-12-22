@@ -6,6 +6,12 @@
 # We expect fizzbuzz(15) to return "FizzBuzz"
 # we expect fizzbuzz(4) to return nil
 
-def fizzbuzz
-
+def fizzbuzz(int)
+  if int % 3
+    return "Fizz"
+  elsif int % 5
+    return "Buzz"
+  elsif int % 3 , int % 5
+    return "FizzBuzz"
+  else
 end
