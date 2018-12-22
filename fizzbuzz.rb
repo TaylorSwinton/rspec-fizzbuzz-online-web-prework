@@ -7,5 +7,5 @@
 # we expect fizzbuzz(4) to return nil
 
 def fizzbuzz
-  
+
 end
