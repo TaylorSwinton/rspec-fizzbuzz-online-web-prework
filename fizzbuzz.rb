@@ -7,7 +7,9 @@
 # we expect fizzbuzz(4) to return nil
 
 def fizzbuzz(int)
-  if int % 15 == 0
+  if int % 15 !== 0
+     
+  elsif int % 15 == 0
   "FizzBuzz"
   elsif int % 3 == 0
     "Fizz"
